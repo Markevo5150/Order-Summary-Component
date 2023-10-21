@@ -12,11 +12,7 @@ export default function App() {
             any device anywhere you like!{" "}
           </p>
           <div className="plan">
-            <img
-              className="musicIcon"
-              src="../images/icon-music.svg"
-              alt="musicIcon"
-            />
+            <img src="../images/icon-music.svg" alt="musicIcon" />
             <div className="info">
               <span className="annual">Annual Plan</span>
               <span className="price">$59.99/year</span>

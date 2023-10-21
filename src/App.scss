@@ -8,13 +8,9 @@
   flex-direction: column;
 }
 
-.image {
-  width: inherit;
-}
-img {
-  width: inherit;
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
+.summary {
+  display: flex;
+  flex-direction: column;
 }
 .title {
   margin: 1.5rem 0;
@@ -31,7 +27,9 @@ img {
   justify-content: space-around;
   align-items: center;
   height: 70px;
-  margin-top: 1.5rem;
+  margin: 1.5rem auto;
+  width: 330px;
+  border-radius: 8px;
 }
 .info {
   display: flex;
@@ -39,6 +37,9 @@ img {
 }
 
 .musicIcon {
-  width: 50px;
+  width: 45px;
   background-size: cover;
+}
+.annual {
+  font-weight: var(--extraBold);
 }
