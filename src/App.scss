@@ -1,0 +1,44 @@
+.main-container {
+  background: var(--VeryPaleBlue);
+  width: 400px;
+  height: 700px;
+  margin: 2rem auto;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: inherit;
+}
+img {
+  width: inherit;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.title {
+  margin: 1.5rem 0;
+  text-align: center;
+  color: var(--DarkBlue);
+}
+.description {
+  margin: 0 4rem 0 4rem;
+  text-align: center;
+}
+.plan {
+  background: var(--LightGray);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  margin-top: 1.5rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.musicIcon {
+  width: 50px;
+  background-size: cover;
+}
