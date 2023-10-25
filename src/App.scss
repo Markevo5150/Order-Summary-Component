@@ -66,6 +66,9 @@
   font-size: 18px;
   font-weight: var(--boldFont);
   cursor: pointer;
+  &:hover {
+    background: var(--PurpleBlue);
+  }
 }
 
 .cancel {
