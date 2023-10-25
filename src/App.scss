@@ -2,12 +2,22 @@
   background: var(--VeryPaleBlue);
   width: 400px;
   height: 700px;
-  margin: 2rem auto;
+  margin: 6rem auto;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
+  border-radius: 20px;
 }
-
+.image {
+  background: url(../images/illustration-hero.svg);
+  background-size: cover;
+  border: none;
+  outline: none;
+  width: inherit;
+  height: 190px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
 .summary {
   display: flex;
   flex-direction: column;
@@ -20,14 +30,16 @@
 .description {
   margin: 0 4rem 0 4rem;
   text-align: center;
+  line-height: 2;
+  color: var(--DesaturatedBlue);
 }
 .plan {
-  background: var(--LightGray);
+  background: var(--planColor);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 70px;
-  margin: 1.5rem auto;
+  height: 100px;
+  margin: 2rem auto;
   width: 330px;
   border-radius: 8px;
 }
@@ -42,4 +54,30 @@
 }
 .annual {
   font-weight: var(--extraBold);
+}
+.payment {
+  height: 50px;
+  width: 330px;
+  text-align: center;
+  margin: 0 auto 2rem;
+  border-radius: 10px;
+  background: var(--BrightBlue);
+  color: var(--LightGray);
+  font-size: 18px;
+  font-weight: var(--boldFont);
+  cursor: pointer;
+}
+
+.cancel {
+  height: 50px;
+  width: 330px;
+  text-align: center;
+  margin: 0 auto 2rem;
+  background: var(--VeryPaleBlue);
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: var(--boldFont);
+  color: var(--DesaturatedBlue);
+  cursor: pointer;
 }

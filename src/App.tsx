@@ -2,9 +2,7 @@ export default function App() {
   return (
     <>
       <div className="main-container">
-        <div className="image">
-          <img src="../images/illustration-hero.svg" alt="hero" />
-        </div>
+        <div className="image"></div>
         <div className="summary">
           <h2 className="title">Order Summary</h2>
           <p className="description">
