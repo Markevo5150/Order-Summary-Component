@@ -84,4 +84,7 @@
   font-weight: var(--boldFont);
   color: var(--DesaturatedBlue);
   cursor: pointer;
+  &:hover {
+    color: var(--DarkBlue);
+  }
 }
